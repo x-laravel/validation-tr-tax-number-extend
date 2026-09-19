@@ -12,19 +12,21 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/support": ">=5.5",
-        "x-adam/tr-tax-number-validation": ">=3"
+        "php": "^8.2",
+        "illuminate/contracts": "^12.0 || ^13.0",
+        "illuminate/support": "^12.0 || ^13.0",
+        "illuminate/validation": "^12.0 || ^13.0",
+        "x-adam/tr-tax-number-validation": "^5.0"
     },
     "autoload": {
         "psr-4": {
-            "XLaravel\\ValidationTrTaxNumberExtend\\": "./src/"
+            "XLaravel\\ValidationTrTaxNumberExtend\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "XLaravel\\ValidationTrTaxNumberExtend\\Providers\\ValidationTrTaxNumberExtendServiceProvider"
+                "XLaravel\\ValidationTrTaxNumberExtend\\TrTaxNumberServiceProvider"
             ]
         }
     },
