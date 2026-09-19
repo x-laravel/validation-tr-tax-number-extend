@@ -18,9 +18,18 @@
         "illuminate/validation": "^12.0 || ^13.0",
         "x-adam/tr-tax-number-validation": "^5.0"
     },
+    "require-dev": {
+        "orchestra/testbench": "^10.0 || ^11.0",
+        "phpunit/phpunit": "^11.5 || ^12.0"
+    },
     "autoload": {
         "psr-4": {
             "XLaravel\\ValidationTrTaxNumberExtend\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XLaravel\\ValidationTrTaxNumberExtend\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -31,5 +40,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit"
+    }
 }
