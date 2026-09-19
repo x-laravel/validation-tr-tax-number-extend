@@ -19,6 +19,7 @@
         "x-adam/tr-tax-number-validation": "^5.0"
     },
     "require-dev": {
+        "larastan/larastan": "^3.0",
         "orchestra/testbench": "^10.0 || ^11.0",
         "phpunit/phpunit": "^11.5 || ^12.0"
     },
@@ -40,6 +41,7 @@
         }
     },
     "scripts": {
+        "analyse": "phpstan analyse",
         "test": "phpunit"
     }
 }

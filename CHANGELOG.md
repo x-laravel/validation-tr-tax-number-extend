@@ -26,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - English translation alongside the Turkish one.
 - Language files are publishable with `php artisan vendor:publish --tag=tr-tax-number-translations`.
-- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.2–8.5 and Laravel 12–13.
+- Orchestra Testbench test suite and a GitHub Actions matrix across PHP 8.2–8.5 and Laravel 12–13,
+  plus PHPStan (Larastan) at level max.
 - MIT license file.
 
 [Unreleased]: https://github.com/X-Laravel/validation-tr-tax-number-extend/compare/1.x...2.x
