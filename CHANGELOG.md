@@ -5,7 +5,7 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.0] - 2026-09-20
 
 ### Changed
 
@@ -30,4 +30,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   plus PHPStan (Larastan) at level max.
 - MIT license file.
 
-[Unreleased]: https://github.com/X-Laravel/validation-tr-tax-number-extend/compare/1.x...2.x
+[2.0.0]: https://github.com/X-Laravel/validation-tr-tax-number-extend/compare/v1.0.0...v2.0.0
